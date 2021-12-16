@@ -3,7 +3,7 @@
 Instruction: https://seedsecuritylabs.org/Labs_16.04/PDF/Crypto_Encryption.pdf
 
 
-    Task 1
+###Task 1
 
 
 Step 1: Use the text of the Gettysburg Address as the original article file gettysburg.txt. The usage of tr is available in GNU documentations. -d means 'delete' and -cd means 'delete the complement of', so first we just keep the letters, spaces, and newlines as the plaintext.
@@ -26,7 +26,7 @@ Step 3: Encryption
 
 $tr "abcdefghijklmnopqrstuvwxyz" "azfgmunhrqwetlxicdksjbpvyo" < plaintext.txt > ciphertext.txt
 
-   Break
+###Break
    
    Use http://www.richkni.co.uk/php/crypta/freq.php to analyze the frequency of ciphertext.txt, its full report shows as analysis.md.
 
@@ -37,7 +37,7 @@ Compared with letter frequency rank as eothasinrdluymwfgcbpkvjqxz in modern Engl
 
 $ tr 'msaxhdlrgkefpnubjiztywcqvo' 'eothasinrdluymwfgcbpkvjqxz' < ciphertext.txt > out1.txt
 
-   Task 2
+###Task 2
    
  Ref to the manual of enc.
  
